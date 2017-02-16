@@ -5,7 +5,7 @@ app.set('views', './views');
 app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
-  res.render('index.pug', 
+  res.render('home.pug', 
 	{ title: 'Hey' });
 });
 
