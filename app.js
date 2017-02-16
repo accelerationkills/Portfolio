@@ -6,7 +6,8 @@ app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
   res.render('home.pug', 
-	{ title: 'Hey' });
+	{ title: 'Hey',
+	heading: 'Welcome!' });
 });
 
 module.exports = app;
