@@ -1,0 +1,10 @@
+doctype
+html
+	head
+		title Connor Teal - #{title}
+	body
+		block content
+		block foot
+			#footer
+				p 'tealc2@uw.edu'
+	 
